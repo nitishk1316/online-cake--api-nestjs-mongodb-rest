@@ -26,11 +26,7 @@ import { DeliveryModule } from 'src/delivery/delivery.module';
 			imports: [ConfigModule],
 			useFactory: async (configService: ConfigService) =>
 				({
-					uri: configService.get<string>("DB_URL"),
-				//  useNewUrlParser: true,
-				//	useUnifiedTopology: true,
-				//	useFindAndModify: false,
-				//	useCreateIndex: true,
+					uri: configService.get<string>("MONGO_DB_URL")
 				} as MongooseModuleFactoryOptions),
 				inject: [ConfigService],
 		}),

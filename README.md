@@ -2,6 +2,29 @@
 
 A NestJS RESTful APIs for Online Cake Shop with MongoDB
 
+## LIVE DEMO
+
+* API Swagger [https://cake-api.aarivs.com/swagger]
+* User Website [https://cake-web.aarivs.com]
+* Admin Dashboard [https://cake-dashboard.aarivs.com]
+
+## Features
+
+* Cake category by Type, Flavour, Occasion
+* Banner
+* Coupons, Deals
+* Payment methods (COD, Stripe)
+* Delivery coverage and delivery Slots
+* Multiple language
+* Wishlist
+* Shop setting
+* Support delivery agent app
+* Pages (Contact, AboutUS, T&C etc..)
+* Admin dashboard reports
+* Admin dashboard instant Notification
+* Manage all feature by admin
+
+
 ## Requirements
 
 You need to keys to support other features like image, email, sms etc

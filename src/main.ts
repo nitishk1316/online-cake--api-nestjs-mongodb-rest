@@ -8,10 +8,10 @@ async function bootstrap() {
 	const app = await NestFactory.create(AppModule);
 	app.enableCors();
 	const config = new DocumentBuilder()
-		.setTitle('Readymade Cake')
-		.setDescription('Readymade Cake')
+		.setTitle('Aarivs Cake Shop')
+		.setDescription('Aarivs Cake Shop')
 		.setVersion('1.0')
-		.addTag('Cake API')
+		.addTag('Aarivs Cake API')
 		.build();
 	const document = SwaggerModule.createDocument(app, config);
 	SwaggerModule.setup('swagger', app, document,  {
